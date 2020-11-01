@@ -1,0 +1,123 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: 0px;
+}
+body {
+  width: 100vw;
+  overflow-x: hidden;
+  background-color: #fafafa;
+}
+nav {
+  background-color: #fafafa;
+}
+br {
+  display: block;
+  margin: 10px 0;
+}
+.cart {
+  display: flex;
+  flex-direction: row;
+}
+.button {
+  width: 400px;
+  height: 100px;
+  color: white;
+  background-color: #fb641b;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button:hover {
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 1);
+}
+.name {
+  display: flex;
+  flex-direction: column;
+  margin: 40px 30px 10px 40px;
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  background-color: #dfdfdf;
+  box-shadow: 10px 10px 5px grey;
+  height: 400px;
+  width: 930px;
+}
+.category {
+  float: left;
+  position: relative;
+  margin: 40px 5px 10px 40px;
+  font-family: "Poppins", sans-serif;
+  background-color: #dfdfdf;
+}
+.price {
+  margin: 40px 40px 10px 5px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  box-shadow: 10px 10px 5px grey;
+  background-color: #dfdfdf;
+  max-height: 230px;
+  width: 460px;
+}
+.photu {
+  margin: 20px 40px 20px 20px;
+  border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+  max-height: 60%;
+  width: inherit;
+}
+#nameh3 {
+  font-family: "Poppins", sans-serif;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  color: #495464;
+}
+#pleft {
+  font-family: "Poppins", sans-serif;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 1px;
+  color: #495464;
+}
+#pright {
+  font-family: "Poppins", sans-serif;
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 1px;
+  color: #495464;
+}
+.pricet {
+  font-family: "Poppins", sans-serif;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 1px;
+  float: right;
+  color: #495464;
+}
+.cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.cartname {
+  display: flex;
+  flex-direction: row;
+}
+#namefi {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.tot {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

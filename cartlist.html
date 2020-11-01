@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <script src="Product.js" defer></script>
+    <script src="Navbar.js" defer></script>
+</head>
+
+<body>
+    <section class="container_custom">
+        <nav>
+            <div class="logo">
+                <h4>Food King</h4>
+            </div>
+            <ul class="nav-links">
+                <li><a href="">Home</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li class="active"><a href="">Log In/Sign Up</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </section>
+    <div class="container-fluid">
+        <div class="container-xl pt-4 pb-5">
+            <div class="row mt-0 mb-1">
+                <div class="col-12">
+                    <div class="card d-none d-sm-block" style="box-shadow:0px 0px 4px 1px rgba(97,97,97,0.24) ; ">
+                        <div class="card-body">
+                            <div class="row w-100 py-auto my-auto">
+                                <div class="col-8 my-auto">
+                                    <strong>My shopping bag:3</strong>
+                                </div>
+                                <div class="col-4  my-auto text-right">
+                                    <strong>
+                                        &#x20b9; 3000
+                                    </strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="display: flex;">
+                <div class="col-lg-9" >
+                    <div class="card mt-3" style="box-shadow:0px 0px 4px 1px rgba(97,97,97,0.24) ;" >
+                        <div class="card-body">
+                            <div class="row no-gutters " style="display: flex; flex-wrap: nowrap;">
+                                <a style="text-decoration: none;">
+                                <div>
+                                    <img style="width: 111px; height: 148; object-fit: cover;" 
+                                      src="Food/Chinese/chowmein.jpg" class="card-img" alt="chowmein" />
+                                </div>
+                            </a>
+                                <div class="w-100" style="padding-left: 10px;" >
+                                    <strong>Chowmein</strong>
+                                    <div class="d-flex w-100 justify-content-between">
+                                        <span>
+                                            <p class="small text-muted ">Sold by: chois' kitchen</p>
+                                        </span>
+                                        <span>
+                                            <strong class="d-none d-sm-block">&#x20b9;3000</strong>
+                                        </span>
+                                    </div>
+                                    <div class="d-flex w-100 mt-0 justify-content-between">
+                                        <span class="d-flex ">
+                                            <span>
+                                                <button class="btn" >+</button>
+                                            </span>
+                                            <span>
+                                                <input style="width: 26px; border:none; outline: none; pointer-events: none; transform: translateY(8px); font-size: 16px; text-align:center;" value="2"/>
+                                            </span>
+                                            <span>
+                                                <Button class="btn">-</Button>
+                                            </span>
+                                        </span>
+                                        <span>
+                                            <p class="text-muted d-none d-sm-block">
+                                                <span>
+                                                    <s>&#x20b9;4000</s> 
+                                                </span>
+                                                <span class="small" style="color: red;">
+                                                    30 %
+                                                </span>
+                                            </p>
+                                        </span>
+                                    </div>
+                                    <div class="d-flex mt-2">
+                                        <span>
+                                            <strong class="d-block d-sm-none">&#x20b9;4000</strong>
+                                        </span>
+                                        <p class="text-muted d-block d-sm-none ml-1">
+                                            <span>
+                                                <s>&#x20b9;3000</s>
+                                            </span>
+                                            <span class="small" style=" color: red;">
+                                                10
+                                            </span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr />
+                            <div class="row">
+                                <div class="col-12">
+                                    <button class="btn btn-danger btn-light text-muted btn-block" >Remove</button>
+                                    <button class="btn btn-danger btn-light text-muted btn-block" >
+                                        Move to wishlist
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mt-3" style="box-shadow:0px 0px 4px 1px rgba(97,97,97,0.24)">
+                        <div class="card-body">
+                            <div class="row no-gutters" style="display: flex; flex-wrap: nowrap;">
+                                <a style="text-decoration: none;">
+                                    <div>
+                                        <img style="width: 111px; height: 148; object-fit: cover;" src="Food/Chinese/chowmein.jpg"
+                                            class="card-img" alt="chowmein" />
+                                    </div>
+                                </a>
+                                <div class="w-100" style="padding-left: 10px;">
+                                    <strong>Chowmein</strong>
+                                    <div class="d-flex w-100 justify-content-between">
+                                        <span>
+                                            <p class="small text-muted ">Sold by: chois' kitchen</p>
+                                        </span>
+                                        <span>
+                                            <strong class="d-none d-sm-block">&#x20b9;3000</strong>
+                                        </span>
+                                    </div>
+                                    <div class="d-flex w-100 mt-0 justify-content-between">
+                                        <span class="d-flex ">
+                                            <span>
+                                                <button class="btn"> + </button>
+                                            </span>
+                                            <span>
+                                                <input
+                                                    style="width: 26px; border:none; outline: none; pointer-events: none; transform: translateY(8px); font-size: 16px; text-align:center;"
+                                                    value="2" />
+                                            </span>
+                                            <span>
+                                                <Button class="btn"> - </Button>
+                                            </span>
+                                        </span>
+                                        <span>
+                                            <p class="text-muted d-none d-sm-block">
+                                                <span>
+                                                    <s>&#x20b9;4000</s>
+                                                </span>
+                                                <span class="small" style="color: red;">
+                                                    30 %
+                                                </span>
+                                            </p>
+                                        </span>
+                                    </div>
+                                    <div class="d-flex mt-2">
+                                        <span>
+                                            <strong class="d-block d-sm-none">&#x20b9;4000</strong>
+                                        </span>
+                                        <p class="text-muted d-block d-sm-none ml-1">
+                                            <span>
+                                                <s>&#x20b9;3000</s>
+                                            </span>
+                                            <span class="small" style=" color: red;">
+                                                10
+                                            </span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr />
+                            <div class="row">
+                                <div class="col-12">
+                                    <button class="btn btn-danger btn-light text-muted btn-block">Remove</button>
+                                    <button class="btn btn-danger btn-light text-muted btn-block">
+                                        Move to wishlist
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card mt-3" style="box-shadow:0px 0px 4px 1px rgba(97,97,97,0.24) ;">
+                        <div class="card-body">
+                            <strong>Price details:</strong>
+                            <hr />
+                            <div class="d-flex justify-content-between ">
+                                <span>Bag total</span>
+                                <span>
+                                    &#x20b9;
+                                    1000
+                                </span>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <span>Discount</span>
+                                <span>
+                                    -&#x20b9; 30
+                                </span>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <span>Order total</span>
+                                <span>
+                                    &#x20b9;
+                                    2000
+                                </span>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <span>Coupouns</span>
+                                <span>---</span>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <span>Delivery</span>
+                                <span>FREE</span>
+                            </div>
+                            <hr />
+                            <div class="d-flex justify-content-between">
+                                <span>
+                                    <strong>Total:</strong>
+                                </span>
+                                <span>
+                                    <strong>
+                                        &#x20b9;
+                                        3000
+                                    </strong>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+
+
